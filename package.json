@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "shad": "npx shadcn@latest add "
+    "shad": "npx shadcn@latest add"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.15",
