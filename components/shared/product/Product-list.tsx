@@ -1,8 +1,8 @@
-import {IProducts} from "@/types/IProduct";
 import {ProductCard} from "@/components/shared/product/Product-card";
+import {Product} from "@/types";
 
-export function ProductList({data, title, limit}: {data: IProducts, title?: string, limit?: number}){
-  const limitedData = limit ? data.products.slice(0, limit) : data.products;
+export function ProductList({data, title, limit}: {data: Product[], title?: string, limit?: number}){
+  const limitedData = limit ? data.slice(0, limit) : data;
 
   return (
     <div className="my-10">
